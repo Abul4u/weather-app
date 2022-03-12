@@ -1,7 +1,7 @@
 const geocode = require('./utils/geocode');
 const forecast = require('./utils/forecast');
 
-// console.log(process.argv);
+console.log(process.argv);
 const address = process.argv[2];
 if (!address) {
   console.log('Please provide address');
@@ -19,3 +19,5 @@ if (!address) {
 }
 
 // -75.7088, 44.1545  not working
+// command
+// node app.js Sikar
